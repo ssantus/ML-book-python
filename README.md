@@ -27,4 +27,5 @@
   iris.data
 #exercises
   Perceptron.py contains perceptron algorithm
+  Adaline.py contains the adaline algorithm with both activation functions: Gradient descent and Stochastic gradient Descent
   ex1.py contains an example that uses iris.data and the perceptron algorithm
