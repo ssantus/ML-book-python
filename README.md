@@ -29,3 +29,4 @@
   Perceptron.py contains perceptron algorithm
   Adaline.py contains the adaline algorithm with both activation functions: Gradient descent and Stochastic gradient Descent
   ex1.py contains an example that uses iris.data and the perceptron algorithm
+  sigmoid.py runs and plots a sigmoid function for a vector z=(-7, 7, 0.1)
