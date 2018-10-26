@@ -48,3 +48,14 @@ plt.xlabel('petal length [standardized]')
 plt.ylabel('petal width [standardized]')
 plt.legend(loc='upper left')
 plt.show()
+
+from sklearn.linear_model import LogisticRegression
+lr = LogisticRegression(C=1000.0, random_state=0)
+lr.fit(X_train_std, y_train)
+plot_decision_regions_contoured(X_combined_std, y_combined, classifier=lr, test_idx=range(105,150))
+plt.xlabel('petal length [standardized]')
+plt.ylabel('petal width [standardized]')
+plt.legend(loc='upper left')
+plt.show()
+
+#lr.predict_proba(X_test_std[0,:])
